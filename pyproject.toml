@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langchaindemoclient"
+version = "0.1.0"
+description = ""
+authors = ["Juan Peredo <jperedo@bolbeck.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langserve = "^0.0.51"
+fastapi = "^0.110.0"
+httpx-sse = "^0.4.0"
+streamlit = "^1.32.2"
+gradio = "^4.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
